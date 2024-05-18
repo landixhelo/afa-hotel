@@ -1,0 +1,924 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.forum {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.btn-1 {
+  background-color: #cea154;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  transition: 1s ease;
+}
+
+.btn-1:hover {
+  background-color: #3d3931;
+  color: white;
+  transition: 1s ease;
+}
+
+.btn-1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* about-home */
+.about-ds {
+  padding: 50px;
+}
+.about-ds h3 {
+  font-size: 20px;
+  color: #cea154;
+}
+
+.about-ds h1 {
+  font-size: 80px;
+}
+
+/* about-desc */
+#about-index {
+  background: #efefbb;
+  background: -webkit-linear-gradient(to right, #d4d3dd, #efefbb);
+  background: linear-gradient(to right, #d4d3dd, #efefbb);
+}
+#about-desc {
+  background: url("img/542707230.jpg") rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.about-descr {
+  background: url("img/542707230.jpg") rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.about-dsc h1 {
+  font-size: 70px;
+  color: white;
+}
+
+.about-dsc h3 {
+  font-size: 20px;
+  color: #cea154;
+}
+
+.hotel-desc {
+  background-color: rgba(161, 162, 157, 0.5);
+  color: white;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+  clip-path: polygon(53% 0, 100% 0, 100% 73%, 81% 100%, 0 100%, 0% 60%, 0 0);
+}
+
+/* rooms */
+#rooms {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.bck-1 {
+  background: url("img/542704338.jpg") rgb(161, 162, 157);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 47vh;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.5s ease;
+}
+
+.bck-1:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.bck-2 {
+  background: url("img/542704341.jpg") rgba(0, 0, 0, 0.3);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 47vh;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.5s ease;
+}
+
+.bck-2:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.bck-3 {
+  background: url("img/542707194.jpg") rgba(0, 0, 0, 0.3);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 47vh;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.5s ease;
+}
+
+.bck-3:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.rooms-ds h3 {
+  font-size: 20px;
+  color: #cea154;
+}
+
+.rooms-ds h1 {
+  font-size: 80px;
+}
+
+.rooms-card {
+  padding: 10px 30px;
+}
+
+.rooms-card h1 {
+  color: white;
+  font-size: 35px;
+}
+
+.btnn {
+  position: relative;
+  right: -30px;
+  top: 20px;
+}
+
+.btnn a {
+  font-size: 15px;
+}
+
+/* facilities */
+#facilities {
+  background: #ece9e6;
+  background: -webkit-linear-gradient(to right, #f1f1f1, #ece9e6);
+  background: linear-gradient(to right, #f1f1f1, #ece9e6);
+}
+.facilities-ds {
+  margin: 50px 0;
+}
+.facilities-ds h3 {
+  font-size: 20px;
+  color: #cea154;
+}
+
+.faci-icon {
+  margin: 20px;
+  box-shadow: 3px 3px 3px 3px rgb(189, 189, 189);
+  padding: 5px;
+  border-radius: 20px;
+  transition: 1.5s ease;
+}
+
+.faci-icon img {
+  width: 80px;
+  transition: 1s ease;
+}
+
+.faci-icon:hover {
+  transform: scale(1.2);
+  transition: 1.5s ease;
+  cursor: pointer;
+}
+
+.faci-icon h4 {
+  font-size: 25px;
+  margin-left: 30px;
+}
+.facilities-ds h1 {
+  font-size: 70px;
+}
+
+.faci-icon {
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+/* gallery */
+
+.gallery-about-bg {
+  background: url("img/542707276.jpg") rgba(0, 0, 0, 0.35);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+#gallery {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+}
+.gallery-ds h3 {
+  font-size: 20px;
+  color: #cea154;
+}
+
+.gallery-ds h1 {
+  font-size: 70px;
+  color: white;
+}
+
+/* accordion */
+#accordion {
+  background: url("img/542707276.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+}
+
+.accordion-item h3 {
+  font-size: 25px;
+}
+
+.accordion-item p {
+  font-size: 20px;
+}
+.accordion-ds h3 {
+  font-size: 20px;
+  color: #cea154;
+}
+
+.accordion-ds h1 {
+  font-size: 70px;
+  color: white;
+}
+
+/* rooms.html */
+
+.rooms-about-bg {
+  background: url("img/542707245.jpg") rgba(0, 0, 0, 0.35);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.room-header h3 {
+  font-size: 20px;
+  color: #cea154;
+}
+
+.room-header h1 {
+  font-size: 70px;
+  color: white;
+}
+
+.room-footer i {
+  color: #cea154;
+  font-size: 35px;
+  transition: 1s ease;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.room-footer i:hover {
+  cursor: pointer;
+  transition: 1s ease;
+  background-color: #cea154;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.room-footer h4 {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/* contact.html */
+.contact-about-bg {
+  background: url("img/542707237.jpg") rgba(0, 0, 0, 0.35);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.cardsss {
+  background-color: #f1f1f1;
+  padding: 30px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.cardsss p {
+  font-size: 20px;
+}
+
+.cardsss i {
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  background-color: #cea154;
+  border-radius: 50%;
+  transition: 1s ease;
+}
+
+.cardsss i:hover {
+  transform: rotate(360deg);
+  transition: 1s ease;
+  cursor: pointer;
+}
+/* footer */
+
+.footer-nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: black;
+}
+
+.fann:hover {
+  transform: rotate(360deg);
+  transition: 1s ease;
+}
+
+@media only screen and (max-width: 767px) {
+  .about-ds h1 {
+    font-size: 40px;
+  }
+
+  .about-ds h3 {
+    font-size: 18px;
+  }
+
+  .about-dsc h3 {
+    font-size: 18px;
+  }
+  .about-dsc h1 {
+    font-size: 40px;
+  }
+
+  .hotel-desc p {
+    font-size: 15px !important;
+  }
+
+  .rooms-ds h3 {
+    font-size: 18px;
+  }
+
+  .rooms-ds h1 {
+    font-size: 40px;
+  }
+
+  .rooms-card h1 {
+    font-size: 22px;
+  }
+
+  /* rooms  */
+  .rooms-image img {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 0px !important;
+    width: 100%;
+  }
+
+  .facilities-ds h3 {
+    font-size: 18px;
+  }
+
+  .facilities-ds h1 {
+    font-size: 40px;
+  }
+
+  .faci-icon h4 {
+    font-size: 17px;
+  }
+
+  .gallery-ds h3 {
+    font-size: 18px;
+  }
+
+  .gallery-ds h1 {
+    font-size: 40px;
+  }
+
+  .accordion-ds h3 {
+    font-size: 18px;
+  }
+
+  .accordion-ds h1 {
+    font-size: 40px;
+  }
+
+  .accordion-item h3 {
+    font-size: 20px;
+  }
+
+  .accordion-item p {
+    font-size: 17px;
+  }
+
+  /* rooms */
+  .room-header h3 {
+    font-size: 15px !important;
+  }
+
+  .room-header h1 {
+    font-size: 30px;
+  }
+
+  .room-footer i {
+    font-size: 20px;
+  }
+
+  .room-footer h4 {
+    font-size: 15px !important;
+  }
+
+  /* contact */
+  .cardsss p {
+    font-size: 17px !important;
+  }
+  /* gallery */
+  .photos img {
+    height: auto !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about-ds h1 {
+    font-size: 40px;
+  }
+
+  .about-ds h3 {
+    font-size: 18px;
+  }
+
+  .about-dsc h3 {
+    font-size: 18px;
+  }
+  .about-dsc h1 {
+    font-size: 40px;
+  }
+
+  .hotel-desc p {
+    font-size: 15px !important;
+  }
+
+  .rooms-ds h3 {
+    font-size: 18px;
+  }
+
+  .rooms-ds h1 {
+    font-size: 40px;
+  }
+
+  .rooms-card h1 {
+    font-size: 22px;
+  }
+
+  .facilities-ds h3 {
+    font-size: 18px;
+  }
+
+  .facilities-ds h1 {
+    font-size: 40px;
+  }
+
+  .faci-icon h4 {
+    font-size: 17px;
+  }
+
+  .gallery-ds h3 {
+    font-size: 18px;
+  }
+
+  .gallery-ds h1 {
+    font-size: 40px;
+  }
+
+  .accordion-ds h3 {
+    font-size: 18px;
+  }
+
+  .accordion-ds h1 {
+    font-size: 40px;
+  }
+
+  .accordion-item h3 {
+    font-size: 20px;
+  }
+
+  .accordion-item p {
+    font-size: 17px;
+  }
+
+  /* rooms */
+  .room-header h3 {
+    font-size: 15px !important;
+  }
+
+  .room-header h1 {
+    font-size: 30px;
+  }
+
+  .room-footer i {
+    font-size: 20px;
+  }
+
+  .room-footer h4 {
+    font-size: 15px !important;
+  }
+
+  /* contact */
+  .cardsss p {
+    font-size: 17px !important;
+  }
+
+  /* gallery */
+  .photos img {
+    height: auto !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about-ds h1 {
+    font-size: 30px !important;
+  }
+
+  .about-ds h3 {
+    font-size: 16px;
+  }
+
+  .about-dsc h3 {
+    font-size: 18px;
+  }
+  .about-dsc h1 {
+    font-size: 30px;
+  }
+
+  .hotel-desc p {
+    font-size: 13px !important;
+  }
+
+  .rooms-ds h3 {
+    font-size: 18px;
+  }
+
+  .rooms-ds h1 {
+    font-size: 40px;
+  }
+
+  .rooms-card h1 {
+    font-size: 22px;
+  }
+
+  /* rooms */
+  .rooms-image img {
+    height: 330px;
+  }
+
+  .facilities-ds h3 {
+    font-size: 18px;
+  }
+
+  .facilities-ds h1 {
+    font-size: 40px;
+  }
+
+  .faci-icon h4 {
+    font-size: 17px;
+  }
+
+  .gallery-ds h3 {
+    font-size: 18px;
+  }
+
+  .gallery-ds h1 {
+    font-size: 40px;
+  }
+
+  .accordion-ds h3 {
+    font-size: 18px;
+  }
+
+  .accordion-ds h1 {
+    font-size: 40px;
+  }
+
+  .accordion-item h3 {
+    font-size: 20px;
+  }
+
+  .accordion-item p {
+    font-size: 17px;
+  }
+
+  /* gallery */
+  .photos img {
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  /* rooms */
+  .room-header h3 {
+    font-size: 15px !important;
+  }
+
+  .room-header h1 {
+    font-size: 30px;
+  }
+
+  .room-footer i {
+    font-size: 20px;
+  }
+
+  .room-footer h4 {
+    font-size: 15px !important;
+  }
+
+  /* contact */
+  .cardsss p {
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  /* gallery */
+  .photos img {
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .about-ds h1 {
+    font-size: 50px !important;
+  }
+
+  .about-ds h3 {
+    font-size: 18px;
+  }
+
+  .about-dsc h3 {
+    font-size: 18px;
+  }
+  .about-dsc h1 {
+    font-size: 50px !important;
+  }
+
+  .hotel-desc p {
+    font-size: 19px !important;
+  }
+
+  .rooms-ds h3 {
+    font-size: 18px;
+  }
+
+  .rooms-ds h1 {
+    font-size: 50px !important;
+  }
+
+  .rooms-card h1 {
+    font-size: 22px;
+  }
+
+  .facilities-ds h3 {
+    font-size: 18px;
+  }
+
+  .facilities-ds h1 {
+    font-size: 40px;
+  }
+
+  .faci-icon h4 {
+    font-size: 17px;
+  }
+
+  .gallery-ds h3 {
+    font-size: 18px;
+  }
+
+  .gallery-ds h1 {
+    font-size: 40px;
+  }
+
+  .accordion-ds h3 {
+    font-size: 18px;
+  }
+
+  .accordion-ds h1 {
+    font-size: 40px;
+  }
+
+  .accordion-item h3 {
+    font-size: 20px;
+  }
+
+  .accordion-item p {
+    font-size: 17px;
+  }
+
+  /* rooms */
+  .room-header h3 {
+    font-size: 15px !important;
+  }
+
+  .room-header h1 {
+    font-size: 40px !important;
+  }
+
+  .room-footer i {
+    font-size: 20px;
+  }
+
+  .room-footer h4 {
+    font-size: 18px !important;
+  }
+
+  /* contact */
+  .cardsss p {
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-ds h1 {
+    font-size: 40px;
+  }
+
+  .about-ds h3 {
+    font-size: 18px;
+  }
+
+  .about-dsc h3 {
+    font-size: 18px;
+  }
+  .about-dsc h1 {
+    font-size: 40px;
+  }
+
+  .hotel-desc p {
+    font-size: 15px !important;
+  }
+
+  .rooms-ds h3 {
+    font-size: 18px;
+  }
+
+  .rooms-ds h1 {
+    font-size: 40px;
+  }
+
+  .rooms-card h1 {
+    font-size: 22px;
+  }
+
+  .facilities-ds h3 {
+    font-size: 18px;
+  }
+
+  .facilities-ds h1 {
+    font-size: 40px;
+  }
+
+  .faci-icon h4 {
+    font-size: 17px;
+  }
+
+  .gallery-ds h3 {
+    font-size: 18px;
+  }
+
+  .gallery-ds h1 {
+    font-size: 40px;
+  }
+
+  .accordion-ds h3 {
+    font-size: 18px;
+  }
+
+  .accordion-ds h1 {
+    font-size: 40px;
+  }
+
+  .accordion-item h3 {
+    font-size: 20px;
+  }
+
+  .accordion-item p {
+    font-size: 17px;
+  }
+
+  /* rooms */
+  .room-header h3 {
+    font-size: 15px !important;
+  }
+
+  .room-header h1 {
+    font-size: 30px;
+  }
+
+  .room-footer i {
+    font-size: 20px;
+  }
+
+  .room-footer h4 {
+    font-size: 15px !important;
+  }
+
+  /* contact */
+  .cardsss p {
+    font-size: 17px !important;
+  }
+}
+
+/* annimation */
+.fadeinleft {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 1s ease-out;
+}
+
+.fadeinright {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 1s ease-out;
+}
+
+.fadeindown {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: all 1.2s ease-out;
+}
+
+.fadeinup {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1.2s ease-out;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: all 1.3s ease-in;
+}
+
+.active-left,
+.active,
+.active-right,
+.active-down,
+.active-up {
+  opacity: 1;
+  transform: translateX(0);
+  transform: translateY(0);
+}
+
+.fadein {
+  opacity: 0;
+}
